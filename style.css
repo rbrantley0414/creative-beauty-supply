@@ -1,0 +1,185 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    /* height: 28em; */
+    height: 100%;
+    color: white;
+    position: relative;
+}
+
+/* .shop_cat.carousel-item {
+    height: 105%;
+} */
+
+.container div.cat {
+    margin-right: 5px;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators {
+    filter: invert(100%);
+}
+
+ol.carousel-indicators {
+    margin-bottom: 0;
+}
+
+/* #myCarousel {
+    margin: 0 auto;
+    max-width: 800px;
+} */
+
+#myCarousel .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+#myCarouselmobile .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.shop_cat {
+    padding-bottom: 10px;
+}
+
+.shop_for {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cat {
+    position: relative;
+    width: 275px;
+    height: 275px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding-top: 40%;
+    font-size: 1.5em;
+}
+
+.overlay img {
+    position: absolute;
+    width: 275px;
+    height: 275px;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    -webkit-transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+}
+
+.overlay img:hover {
+    opacity: .5;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: #000;
+}
+
+/* visited link */
+a:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+}
+
+/* selected link */
+a:active {
+    color: #000;
+}
+
+a .cat:link {
+    color: #fff;
+}
+
+a .cat:visited {
+    color: #fff;
+}
+
+a .cat:hover {
+    color: #fff;
+}
+
+a .cat:active {
+    color: #fff;
+}
+
+@media only screen and (min-width: 1024px) {
+    .desktop {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .desktop {
+        display: nome
+    }
+
+    .tablet {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .overlay img {
+        opacity: .5;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cat {
+        margin: auto;
+    }
+
+    .overlay img {
+        opacity: .5;
+    }
+
+}
