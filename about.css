@@ -1,0 +1,42 @@
+#wrapper {
+    font-family: 'Poppins', sans-serif;
+    width: 85%;
+    min-height: 100vh;
+    margin: 0 auto;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.float {
+    width: 42.5%;
+    float: left;
+    padding: 20px;
+}
+
+.map {
+    border-left: 3px solid #000;
+}
+
+@media only screen and (max-width: 767px) {
+    #wrapper {
+        text-align: center;
+    }
+
+    .float {
+        float: none;
+        width: auto;
+        margin: auto;
+    }
+
+    iframe {
+        width: auto;
+    }
+
+    .map {
+        border: none;
+    }
+}
