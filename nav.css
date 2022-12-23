@@ -1,0 +1,62 @@
+nav {
+    width: auto;
+}
+
+#nav {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#logo {
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.nav_fluid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_fluid_left {
+    margin-top: 50px;
+}
+
+.search-container input {
+    border-radius: 25px;
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(225, 225, 225);
+}
+
+.search-container button {
+    border: none;
+    background-color: #fff;
+    padding-left: 0;
+}
+
+.nav_icon {
+    margin: 15px 10px;
+}
+
+nav.navbar {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 485px) {
+    .hidemobile {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hidemobile {
+        display: block;
+    }
+}
+
+/* @media only screen and (max-width: 992px) {
+    .mobilesearch {
+        display: none;
+    }
+} */
