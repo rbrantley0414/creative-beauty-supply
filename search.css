@@ -1,0 +1,41 @@
+/* h1 {
+    margin-left: 2em;
+} */
+
+#wrapper {
+    width: auto;
+    min-height: 43.75vh;
+    margin-left: 1.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* #wrapper .form {
+    margin: auto;
+    width: 50%;
+} */
+
+#wrapper input[type=text] {
+    border: 2px solid #000;
+    width: 200%;
+    height: 3em;
+    margin-bottom: 1em;
+    background-color: white;
+    padding-left: 10px;
+}
+
+#wrapper input[type=text]:focus {
+    background-color: rgb(225, 225, 225);
+}
+
+#wrapper #submit {
+    background-color: #000;
+    font-size: .8em;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+}
