@@ -1,0 +1,74 @@
+#wrapper {
+    margin-left: 2.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    width: 100%;
+}
+
+.contact label {
+    width: 100%;
+}
+
+.contact input[type=text] {
+    border: 2px solid #000;
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+.contact input[type=text]:focus {
+    background-color: rgb(225, 225, 225);
+}
+
+.contact input[type=email] {
+    border: 2px solid #000;
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+.contact input[type=email]:focus {
+    background-color: rgb(225, 225, 225);
+}
+
+.contact input[type=tel] {
+    border: 2px solid #000;
+    width: 25%;
+    margin-bottom: 1em;
+}
+
+.contact input[type=tel]:focus {
+    background-color: rgb(225, 225, 225);
+}
+
+.contact textarea {
+    border: 2px solid #000;
+    width: 25%;
+}
+
+.contact textarea:focus {
+    background-color: rgb(225, 225, 225);
+}
+
+.contact #submit {
+    background-color: #000;
+    font-size: .8em;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .contact input[type=text],
+    .contact input[type=email],
+    .contact input[type=tel],
+    .contact textarea {
+        width: 75%;
+    }
+}
