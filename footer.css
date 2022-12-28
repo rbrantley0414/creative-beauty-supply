@@ -1,0 +1,42 @@
+.footer {
+    font-size: 15px;
+    background-color: #000000;
+    color: #fe34aa;
+    margin: 2em 0 0 0;
+    padding: 2em 0 0 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fe34aa
+}
+
+a:hover {
+    text-decoration: none;
+    color: #7c1a53
+}
+
+input {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+ul.social li {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ul.social li a {
+    color: #fff
+}
